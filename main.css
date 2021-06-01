@@ -1,15 +1,17 @@
 html, body {
   font-family: "Gilroy-bold";
+  padding: 0;
+  margin: 0;
 }
 
 .header {
   margin-top: 2.5em;
-  border: 1px solid #0b1d33;
+  border-bottom: 2px solid #8BA5C4;
   box-sizing: border-box;
   padding: 0 10em;
   color: #8BA5C4;
   border-radius: 10px;
-  background-color: #1B1B1B;
+  background-color: #1C2F45;
 }
 
 .logo {
@@ -23,7 +25,7 @@ html, body {
 }
 
 .image {
-  width: 25em;
+  width: 28em;
   height: 25em;
 }
 
@@ -39,13 +41,15 @@ html, body {
 
 .headline {
   font-size: 3.5rem;
+  color: #B5958A;
+  letter-spacing: 5px;
 }
 
 .footer {
-  border: 1px solid #0b1d33;
+  border-top: 2px solid #8BA5C4;
   border-radius: 10px;
   height: 8em;
-  background-color: #1B1B1B;
+  background-color: #1C2F45;
   display: flex;
 }
 
@@ -65,14 +69,16 @@ html, body {
 
 .link {
   border-radius: 5px;
-  background-color: #8BA5C4;
-  width: 10em;
-  padding: 15px 0;
+  background-color: #501D22;
+  border: 2px solid #8BA5C4;
+  width: 12em;
+  padding: 20px 0;
   text-align: center;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
   transition: ease-in;
+  font-style: normal;
 }
 
 a link:hover {
@@ -80,7 +86,7 @@ a link:hover {
 }
 
 a, a:visited, a:hover, a:active {
-  color: inherit;
+  color: #B5958A;
 }
 
 .contact-mobile {
@@ -119,6 +125,7 @@ a, a:visited, a:hover, a:active {
     padding: 0;
     margin: 0;
     font-size: 3rem;
+    letter-spacing: 0;
   }
 
   .footer {
@@ -141,7 +148,9 @@ a, a:visited, a:hover, a:active {
     width: 95%;
     margin: 10px auto;
     display: block;
-    background-color: #8BA5C4;
+    background-color: #501D22;
+    border: 2px solid #8BA5C4;
+    font-style: normal;
   }
   
   .link-mobile {
