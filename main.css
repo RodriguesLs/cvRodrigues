@@ -1,0 +1,85 @@
+html, body {
+  font-family: "Gilroy-bold";
+}
+
+.header {
+  margin-top: 2.5em;
+  height: 100px;
+  border: 1px solid #0b1d33;
+  box-sizing: border-box;
+  padding: 0 10em;
+  color: #8BA5C4;
+  border-radius: 10px;
+  background-color: #1B1B1B;
+}
+
+.logo {
+  margin: 10px;
+  width: 5em;
+}
+
+.image-right {
+  background-image: url('refact-removebg.png');
+  background-repeat: no-repeat;
+}
+
+.image {
+  width: 25em;
+  height: 25em;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 5em 20em;
+}
+
+.body {
+  background-color: #501D22;
+}
+
+.headline {
+  font-size: 3.5rem;
+}
+
+.footer {
+  border: 1px solid #0b1d33;
+  border-radius: 10px;
+  height: 8em;
+  background-color: #1B1B1B;
+  display: flex;
+}
+
+.footer__text {
+  margin-left: 7em;
+  color: #8BA5C4;
+  text-align: justify;
+  width: 40%;
+  padding: 15px;
+  font-size: 1.3rem;
+}
+
+.contact {
+  margin: 2.5em 20em;
+  width: 30%;
+}
+
+.link {
+  border-radius: 5px;
+  background-color: #8BA5C4;
+  width: 10em;
+  padding: 15px 0;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: ease-in;
+}
+
+a link:hover {
+  border: 1px solid #fff;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
