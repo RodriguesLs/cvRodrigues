@@ -4,7 +4,6 @@ html, body {
 
 .header {
   margin-top: 2.5em;
-  height: 100px;
   border: 1px solid #0b1d33;
   box-sizing: border-box;
   padding: 0 10em;
@@ -82,4 +81,74 @@ a link:hover {
 
 a, a:visited, a:hover, a:active {
   color: inherit;
+}
+
+.contact-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: .7rem;
+    margin-top: 1em;
+  }
+
+  .footer__text {
+    width: 100%;
+    margin: 0;
+    font-size: 1em;
+    box-sizing: border-box
+  }
+
+  .content {
+    margin-top: 10px;
+    flex-direction: column-reverse;
+    padding: 1em;
+  }
+
+  .image-right {
+    text-align: center;
+  }
+
+  .image {
+    height: 15em;
+    width: 20em;
+  }
+
+  .headline {
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 15em;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .contact-mobile {
+    border-radius: 10px;
+    width: 95%;
+    margin: 10px auto;
+    display: block;
+    background-color: #8BA5C4;
+  }
+  
+  .link-mobile {
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    padding: 15px;
+    text-decoration: none;
+  }
 }
