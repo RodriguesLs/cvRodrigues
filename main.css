@@ -32,7 +32,7 @@ html, body {
 .content {
   display: flex;
   justify-content: space-around;
-  padding: 5em 20em;
+  padding: 5em 20em 0 20em;
 }
 
 .body {
@@ -166,6 +166,10 @@ a, a:visited, a:hover, a:active {
   .footer__text {
     margin-left: 2em;
     width: 100%;
+  }
+
+  .headline {
+    letter-spacing: 0;
   }
 
   .contact {
