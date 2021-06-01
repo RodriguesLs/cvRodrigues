@@ -95,7 +95,7 @@ a, a:visited, a:hover, a:active {
 
   .footer__text {
     width: 100%;
-    margin: 0;
+    margin: 0 !important;
     font-size: 1em;
     box-sizing: border-box
   }
@@ -150,5 +150,16 @@ a, a:visited, a:hover, a:active {
     box-sizing: border-box;
     padding: 15px;
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__text {
+    margin-left: 2em;
+    width: 100%;
+  }
+
+  .contact {
+    width: 3em;
   }
 }
